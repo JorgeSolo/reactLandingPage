@@ -1,13 +1,10 @@
 import React from "react";
 import { Navbar } from "./component/navbar.js";
 import { Jumbotron } from "./jumbotron";
-<<<<<<< HEAD:src/js/component/home.js
-import { Card } from "./card";
-//include images into your; bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-=======
+import { Card } from "./component/card.js";
+import { Card2 } from "./card2";
+import { Footer } from "./footer";
 //include images into your bundle
->>>>>>> c34d95270675abacb1396656ad33d2303f25cbbf:src/js/home.js
 
 //create your first component
 export class Home extends React.Component {
@@ -15,8 +12,18 @@ export class Home extends React.Component {
 		return (
 			<div className="container">
 				<Navbar />
+				<br />
 				<Jumbotron />
-				<Card />
+				<br />
+                <Card/>
+                <br/>
+                <Card2/>
+                <br/>
+                <Card/>
+                <br/>
+                <Card2/>
+                <br/>
+                <Footer/>
 			</div>
 		);
 	}
