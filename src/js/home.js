@@ -1,8 +1,7 @@
 import React from "react";
 import { Navbar } from "./component/navbar.js";
 import { Jumbotron } from "./jumbotron";
-import { Card } from "./component/card.js";
-import { Card2 } from "./card2";
+import { Cards } from "./card2";
 import { Footer } from "./footer";
 //include images into your bundle
 
@@ -15,15 +14,9 @@ export class Home extends React.Component {
 				<br />
 				<Jumbotron />
 				<br />
-                <Card/>
-                <br/>
-                <Card2/>
-                <br/>
-                <Card/>
-                <br/>
-                <Card2/>
-                <br/>
-                <Footer/>
+                <Cards />
+                <br />
+                <Footer />
 			</div>
 		);
 	}
