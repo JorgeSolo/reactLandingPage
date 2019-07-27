@@ -9,15 +9,12 @@ import { Footer } from "./footer";
 export class Home extends React.Component {
 	render() {
 		return (
-			<div className="container">
+			<React.Fragment>
 				<Navbar />
-				<br />
 				<Jumbotron />
-				<br />
 				<Cards />
-				<br />
 				<Footer />
-			</div>
+			</React.Fragment>
 		);
 	}
 }
