@@ -2,103 +2,110 @@ import React from "react";
 export class Cards extends React.Component {
 	render() {
 		return (
-			<div className="container mt-3">
-				<div className="row text-center">
-					<div className="col-lg-3 col-md-6 mb-4">
-						<div className="card h-100">
+			<React.Fragment>
+				<div className="container mb-3 mt-3">
+					<div className="card-deck">
+						<div className="card">
 							<img
-								className="card-img-top"
 								src="http://placehold.it/500x325"
-								alt=""
+								className="card-img-top"
+								alt="..."
 							/>
 							<div className="card-body">
-								<h4 className="card-title">Card title</h4>
-								<p className="card-text">
+								<h5 className="card-title text-center">
+									Card title
+								</h5>
+								<p className="card-text text-center">
 									Lorem ipsum dolor sit amet, consectetur
 									adipisicing elit. Sapiente esse
 									necessitatibus neque.
 								</p>
 							</div>
-							<div className="card-footer">
-								<a href="#" className="btn btn-primary">
+							<div className="card-footer text-center">
+								<button
+									className="btn btn-primary"
+									type="submit">
 									Find Out More!
-								</a>
+								</button>
 							</div>
 						</div>
-					</div>
-
-					<div className="col-lg-3 col-md-6 mb-4">
-						<div className="card h-100">
+						<div className="card">
 							<img
-								className="card-img-top"
 								src="http://placehold.it/500x325"
-								alt=""
+								className="card-img-top"
+								alt="..."
 							/>
 							<div className="card-body">
-								<h4 className="card-title">Card title</h4>
-								<p className="card-text">
+								<h5 className="card-title text-center">
+									Card title
+								</h5>
+								<p className="card-text text-center">
 									Lorem ipsum dolor sit amet, consectetur
 									adipisicing elit. Explicabo magni sapiente,
 									tempore debitis beatae culpa natus
 									architecto.
 								</p>
 							</div>
-							<div className="card-footer">
-								<a href="#" className="btn btn-primary">
+							<div className="card-footer text-center">
+								<button
+									className="btn btn-primary"
+									type="submit">
 									Find Out More!
-								</a>
+								</button>
 							</div>
 						</div>
-					</div>
-
-					<div className="col-lg-3 col-md-6 mb-4">
-						<div className="card h-100">
+						<div className="card">
 							<img
-								className="card-img-top"
 								src="http://placehold.it/500x325"
-								alt=""
+								className="card-img-top"
+								alt="..."
 							/>
 							<div className="card-body">
-								<h4 className="card-title">Card title</h4>
-								<p className="card-text">
+								<h5 className="card-title text-center">
+									Card title
+								</h5>
+								<p className="card-text text-center">
 									Lorem ipsum dolor sit amet, consectetur
 									adipisicing elit. Sapiente esse
 									necessitatibus neque.
 								</p>
 							</div>
-							<div className="card-footer">
-								<a href="#" className="btn btn-primary">
+							<div className="card-footer text-center">
+								<button
+									className="btn btn-primary"
+									type="submit">
 									Find Out More!
-								</a>
+								</button>
 							</div>
 						</div>
-					</div>
-
-					<div className="col-lg-3 col-md-6 mb-4">
-						<div className="card h-100">
+						<div className="card">
 							<img
-								className="card-img-top"
 								src="http://placehold.it/500x325"
-								alt=""
+								className="card-img-top"
+								alt="..."
 							/>
 							<div className="card-body">
-								<h4 className="card-title">Card title</h4>
-								<p className="card-text">
+								<h5 className="card-title text-center">
+									Card title
+								</h5>
+								<p className="card-text text-center">
 									Lorem ipsum dolor sit amet, consectetur
 									adipisicing elit. Explicabo magni sapiente,
 									tempore debitis beatae culpa natus
 									architecto.
 								</p>
 							</div>
-							<div className="card-footer">
-								<a href="#" className="btn btn-primary">
+							<div className="card-footer text-center">
+								<button
+									className="btn btn-primary"
+									type="submit">
 									Find Out More!
-								</a>
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }
